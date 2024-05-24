@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Flatlist from "./Components/Flatlist/Flatlist";
 import Counters from "./Components/Counter/Counter";
 import Accordion from "./Components/Accordion/Accordion";
+import { ClassyWeather } from "./Components/Classy Weather/ClassyWeather";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Form />
       <Flatlist />
       <Accordion />
+      <ClassyWeather />
     </div>
   );
 }
